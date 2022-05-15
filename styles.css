@@ -479,3 +479,34 @@ body {
   font-size: 15px;
   word-spacing: -1px;
 }
+.contacts {
+  display: flex;
+  flex-direction: row;
+  width: 1297px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  padding-top: 48px;
+}
+.location {
+  padding-right: 24px;
+  width: 338px;
+  height: 376px;
+  padding-left: 79px;
+}
+.forms {
+  flex-grow: 1;
+}
+.namemail {
+  display: flex;
+  justify-content: space-evenly;
+  width: 855px;
+}
+.namemail:first-child {
+  width: 388px;
+  height: 37px;
+}
+.namemail:last-child {
+  width: 388px;
+  height: 37px;
+}
