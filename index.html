@@ -347,37 +347,42 @@
       <p class="cond">Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
     <div class="contacts">
       <div class="location">
+        <div class="loc1">
         <h5 class="maniloc">Location:</h5>
         <p class="locdetails">
-          A108 Adam Street,
+          A108 Adam Street,<br>
 New York, NY 535022
         </p>
+      </div>
+      <div class="loc2">
         <h5 class="maniloc">Email:</h5>
         <p class="locdetails">
           info@example.com
         </p>
+      </div>
+      <div class="loc3">
         <h5 class="maniloc">Call:</h5>
         <p class="locdetails">
           +1 5589 55488 55s
         </p>
+      </div>
 
       </div>
       <form class="forms">
-        <div>
-          <input type="text" placeholder="Your Name">
-
+        <div class="namemail">
+          <input type="text" placeholder="Your Name" id="box1">
+          <input type="text" placeholder="Your Email" id="box2">
         </div>
-        <div>
-          <input type="text" placeholder="Your Email">
+        <div class="subject">
+          <input type="text" placeholder="Subject" id="sub">
         </div>
-        <div>
-          <input type="text" placeholder="Subject">
+        <div class="message">
+          <textarea placeholder="Message" id="subbut"></textarea>
+          <!-- <input type="text" > -->
         </div>
-        <div>
-          <input type="text" placeholder="Message">
-        </div>
-        <input type="submit" value="Submit">
-      
+        <div class="butalign">
+        <input type="submit" value="Send Message" id="finalbutton" >
+      </div>
       </form>
     </div>
     </section>
