@@ -562,3 +562,58 @@ body {
   padding-top: 19px;
   text-align: center;
 }
+.twelthsection {
+  position: relative;
+  background-image: url(assets/footer-bg.jpg);
+}
+.twelthsection img {
+  position: absolute;
+  top: 124px;
+  left: 911px;
+  width: 78.19px;
+  height: 80px;
+}
+.twelthsection h5 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  padding-top: 236px;
+  color: #fff;
+}
+.twelthsection p {
+  text-align: center;
+  padding-top: 37px;
+  width: 766px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  position: relative;
+  color: #fff;
+}
+.footerbox {
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+  padding-bottom: 420px;
+  justify-content: center;
+}
+#footersub {
+  width: 697px;
+  height: 34px;
+  border-radius: 26px;
+  padding-left: 16px;
+}
+.footerbox button {
+  border-radius: 23px;
+  width: 100px;
+  position: absolute;
+  top: 401px;
+  left: 1219px;
+  height: 40px;
+  background-color: lightgreen;
+  color: g;
+  color: white;
+}
