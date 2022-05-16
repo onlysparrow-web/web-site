@@ -496,17 +496,69 @@ body {
 }
 .forms {
   flex-grow: 1;
+  margin-left: 44px;
+  background-color: lightcyan;
 }
 .namemail {
   display: flex;
   justify-content: space-evenly;
   width: 855px;
 }
-.namemail:first-child {
-  width: 388px;
+.loc1 {
+  padding-top: 56px;
+}
+.maniloc {
+  font-size: 22px;
+}
+.locdetails {
+  font-size: 13px;
+  font-weight: 500;
+  padding-top: 7px;
+  line-height: 21px;
+}
+.loc2 {
+  padding-top: 42px;
+}
+.loc3 {
+  padding-top: 43px;
+}
+.namemail {
+  padding-top: 16px;
+  width: 855px;
+  height: 44px;
+}
+
+#box1 {
+  width: 387px;
+}
+#box2 {
+  width: 387px;
+}
+.subject {
+  padding-top: 25px;
+  text-align: center;
+}
+#sub {
+  width: 808px;
   height: 37px;
 }
-.namemail:last-child {
-  width: 388px;
-  height: 37px;
+#subbut {
+  width: 812px;
+  height: 121px;
+}
+
+.message {
+  text-align: center;
+  padding-top: 25px;
+}
+#finalbutton {
+  text-align: center;
+  padding: 13px 23px 13px 23px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.butalign {
+  padding-top: 19px;
+  text-align: center;
 }
