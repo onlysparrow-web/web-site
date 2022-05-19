@@ -19,6 +19,8 @@ body {
 }
 .mainimg {
   margin-bottom: 14px;
+  width="130px";
+          height="133px";
 }
 .welc {
   font-family: "Montserrat";
@@ -63,6 +65,8 @@ body {
   position: absolute;
   top: 994px;
   left: 300px;
+  width="39.59px";
+   height="39.98px";
 }
 .about-container {
   display: flex;
@@ -157,8 +161,14 @@ body {
   color: #aeaeae;
   font-weight: 400;
 }
+.aboutimage img {
+  width: 596px;
+  height: 445px;
+}
 .cont2 img {
   margin-top: 27px;
+  width:660px;
+  height:413.5px;
 }
 .spans {
   display: block;
@@ -236,8 +246,21 @@ body {
   font-weight: 400;
   line-height: 41px;
 }
-.whyimg {
+.whyimg img {
   margin-top: -28px;
+  width: 793px;
+  height: 594px;
+}
+.grid img{
+  width: 416px;
+  height: 312px;
+}
+.partners img{
+  width: 30%;
+}
+.teamates img{
+  width: 416px;
+  height: 416px;
 }
 .leftside p {
   font-size: 14px;
@@ -614,6 +637,6 @@ body {
   left: 1219px;
   height: 40px;
   background-color: lightgreen;
-  color: g;
   color: white;
 }
+
